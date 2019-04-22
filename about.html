@@ -1,17 +1,70 @@
 <html>
 	<head>
-        	<title>LB - About</title>
+    <title>LB - About</title>
 
 		<style>
 			A {text-decoration: none;}
 
-			.footer {
+			.text {
 			font-family:'arial', Canada Type;
+			}
+
+			.AboutText {
+				position: relative;
+				display: inline-block;
+				margin: 0;
+				font-family:'arial', Canada Type;
+				color: white;
+				text-align: left;
+			font-weight: bold;
+			}
+
+			.container {
+  		position:relative;
+  		text-align:center;
 			}
 
 			.art {
    			border-radius: 0.5%;
 			box-shadow: 0px 2px 10px #111111;
+			}
+
+			.About {
+				position: relative;
+				display: inline-block;
+				width: 550px;
+				margin-left: 100px;
+				box-sizing: border-box;
+			}
+
+			.projects {
+				position: relative;
+				display: inline-block;
+				width: 300px;
+				position: fixed;
+				height:100%;
+				margin-right: 100px;
+				margin-left: 12px;
+				margin-bottom: 40px;
+				background-size: 100%;
+				overflow: hidden;
+				background-position: center;
+   			border-radius: 0.5%;
+				transition: 5.5s;
+			box-shadow: 0px 2px 10px #111111;
+			}
+
+			.projects:hover {
+				background-size: 110%;
+			}
+
+			a {
+    		text-decoration: none;
+    		color: white;
+			}
+
+			img {
+				vertical-align: middle;
 			}
 
 			br {
@@ -20,6 +73,7 @@
 			}
 
 			ul {
+			z-index: 10;
  			list-style-type: none;
 			font-family:'arial', Canada Type;
 			margin: 0;
@@ -51,6 +105,7 @@
 			}
 		</style>
 
+		<div style="background-image: url('Images/About/MeGIF.gif')" align="right" class="projects"></div>
 		<link rel="icon" type="image/png" href="Images/Logos/Icon"/>
 	</head>
 
@@ -64,34 +119,45 @@
 			<li><a href="about">About</a></li>
 		</ul>
 
-
-
-			<center>
+		<center>
 
 		<!-- LOGO -->
 
-			<h1>
-			<br><br>
-			<a href="about">
-			<img src="Images/Logos/LBlogo.png" width="150">
-			<br>
-			</a>
-			</h1>
+		<br><br>
+		<a href="about" style="color:white">
+		<img src="Images/Logos/LBlogo.png" width="100" />
+		<span style="font-size:35px;line-height:0.05" class="text">
+		- About.
+		</span>
+		<br><br><br><br><br><br>
+		</a>
 
 		<!-- INHOUD -->
 
-
+		<div class="About">
+			<p class="AboutText"><br>
+			I like to have a place to store everything I make, so that's what this is. Somewhere where I show my skills, and expiriment with new challenges.
+			I was always interested in making stuff, from drawing to making games to making music, I have tried much. And I still do all these thinks from time to time.
+			So there you go, a bit of an introduction by your truly,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			Volkan Welp
+		</p></div>
 
 		<!-- FOOTER -->
 
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 			<footer>
-			<p style="font-size:13px;line-height:0.05" class="footer">
+			<p style="font-size:13px;line-height:0.05" class="text">
 			<a href="https://www.instagram.com/volkaneur/" style="color:white">
 			- VOLKAN WELP -
-			</a></p></p>
+			</a></p>
 
-			<p style="color:#333333;font-size:10px" class="footer">
+			<p style="color:#333333;font-size:10px" class="text">
 			THEME BY LFX
-			</p></p></footer><br><br><br>
+			</p></footer><br><br><br>
 	</body>
 </html>
