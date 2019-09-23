@@ -2,166 +2,7 @@
 	<head>
     <title>LB - Home</title>
 
-		<style>
-
-			@font-face {
-				font-family: "Roboto Regular";
-				src: url(Roboto-Regular.ttf) format("truetype");
-			}
-
-			.text {
-				font-family: "Roboto Regular", Roboto;
-			}
-
-			.container {
-  			position:relative;
-				width: 1250px;
-  			text-align:center;
-			}
-
-			.art {
-   			border-radius: 0.5%;
-				box-shadow: 0px 2px 10px #111111;
-			}
-
-			.aboutPhoto {
-				position: fixed;
-				width: 300px;
-				height:100%;
-				right: 50px;
-				background-size: 100%;
-				overflow: hidden;
-				background-position: center;
-   			border-radius: 0.5%;
-				transition: 5.5s;
-				box-shadow: 0px 2px 10px #111111;
-			}
-
-			.aboutPhoto:hover {
-				background-size: 110%;
-			}
-
-			.AboutText {
-				position: relative;
-				display: inline-block;
-				margin: 0;
-				font-family: "Roboto Regular", Roboto;
-				color: white;
-				font-size: 35;
-				text-align: left;
-				font-weight: bold;
-			}
-
-			.About {
-				position: relative;
-				display: inline-block;
-				width: 750px;
-				box-sizing: border-box;
-			}
-
-			.projects {
-				position: relative;
-				display: inline-block;
-				width: 500px;
-				height: 300px;
-				margin-right: 20px;
-				margin-left: 20px;
-				margin-bottom: 40px;
-				background-size: 100%;
-				overflow: hidden;
-				background-position: center;
-   			border-radius: 0.5%;
-				transition: 5.5s;
-				box-shadow: 0px 2px 10px #111111;
-			}
-
-
-			.projects:hover {
-				background-size: 110%;
-			}
-
-			.projects:after {
-				position: absolute;
-				top: 100%;
-				bottom: 0;
-				left: 0;
-				right: 0;
-				word-wrap: break-word;
-				font-family:'arial', Canada Type;
-				font-size: 2em;
-				font-weight: bold;
-				overflow: hidden;
-				background-color: rgba(0, 0, 0, 0.6);
-				color: #fff
-				padding: 0 8px;
-				opacity: 0;
-				content:attr(data-text);
-				transition: 0.5s;
-			}
-
-			.projects:hover:after {
-				opacity: 1;
-				top: 0;
-				padding: 8px;
-			}
-
-			.Social {
-				width: 3.5%;
-			}
-
-			.Logo {
-				width: 6%;
-			}
-
-			a {
-    		text-decoration: none;
-    		color: white;
-			}
-
-			img {
-				vertical-align: middle;
-			}
-
-			br {
-  			display: block;
-  			margin: 15px 0;
-			}
-
-			ul {
-				z-: 10;
- 				list-style-type: none;
-				font-family: "Roboto Regular", Roboto;
-				margin: 0;
-				position: fixed;
-				text-align: center;
-				top: 0;
-				left: 0;
-				padding: 0;
-				width: 100%;
-				overflow: hidden;
-				background-color: #111;
-			}
-
-			li {
-				float: left;
-				width: 20%;
-			}
-
-			li a {
-				display: block;
-				font-size: 10px;
-				color: white;
-				padding: 7px 14px;
-				text-decoration: none;
-				transition: 0.25s;
-			}
-
-			li a:hover {
-				background-color: #333;
-			}
-
-		</style>
-
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="icon" type="image/png" href="Images/Logos/Icon"/>
 
 	</head>
@@ -169,15 +10,13 @@
 	<body bgcolor="#222222">
 
 		<ul>
-			<li><a href="">Home</a></li>
-			<li><a href="about">About</a></li>
+			<li><a href="art">Art</a></li>
 			<li class="social"><a href="https://www.instagram.com/volkaneur" target="_blank"><img src="Images/Icons/Instagram.png" height="13px" /></a></li>
 			<li class="social"><a href="https://twitter.com/Volkaneur" target="_blank"><img src="Images/Icons/Twitter.png" height="13px" /></a></li>
 			<li class="Logo"><a href="/"><img src="Images/Icons/LBlogo.png" height="13px" /></a></li>
 			<li class="social"><a href="https://github.com/LegeBeker" target="_blank"><img src="Images/Icons/Github.png" height="13px" /></a></li>
 			<li class="social"><a href="https://soundcloud.com/legebeker" target="_blank"><img src="Images/Icons/Soundcloud.png" height="13px" /></a></li>
- 			<li><a href="art">Art</a></li>
-			<li><a href="projects/">Projects</a></li>
+ 			<li><a href="photos">Photos</a></li>
 		</ul>
 
 		<center>
@@ -193,12 +32,10 @@
 		</a>
 
 		<!-- INHOUD -->
-
+		<br><br><br><br><br>
 		<div class="container">
 		<a href="art"><div style="background-image: url('Images/Home/1.png')" class="projects" data-text="Art"></div></a>
-		<a href="projects/"><div style="background-image: url('Images/Home/2.png')" class="projects" data-text="Projects"></div></a>
-		<a href="files"><div style="background-image: url('Images/Home/3.png')" class="projects" data-text="Files"></div></a>
-		<a href="about"><div style="background-image: url('Images/Home/4.png')" class="projects" data-text="About"></div></a>
+		<a href="photos"><div style="background-image: url('Images/Home/4.png')" class="projects" data-text="Photos"></div></a><br><br><br><br><br>
 		</div>
 
 		<!-- FOOTER -->
